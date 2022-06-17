@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/group"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="New Group"/>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        android:title="Contacts"/>
+    <item
+        android:id="@+id/calls"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Calls"/>
+    <item
+        android:id="@+id/pepole"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:title="Pepole Nearby"/>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting"/>
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Telegram Application</string>
+
+    <string name="nevigation_open">open nevigation drawae</string>
+    <string name="nevigation_close">close nevigation drawae</string>
+</resources>
