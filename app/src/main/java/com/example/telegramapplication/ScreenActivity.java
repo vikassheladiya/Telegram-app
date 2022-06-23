@@ -48,10 +48,7 @@ public class ScreenActivity extends AppCompatActivity {
                        Intent ip=new Intent(ScreenActivity.this,PeopleActivity.class);
                        startActivity(ip);
                         break;
-                    case R.id.message:
-                        Intent im=new Intent(ScreenActivity.this, MessageActivity.class);
-                        startActivity(im);
-                        break;
+
                     case R.id.setting:
                         Intent is=new Intent(ScreenActivity.this,SettingActivity.class);
                         startActivity(is);

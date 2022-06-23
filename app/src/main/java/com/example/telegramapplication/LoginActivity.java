@@ -7,10 +7,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     AppCompatButton loginbtn;
+    String[]contry={"india","Afghanistan","Brazil","Canada","Denmark","Egypt","France"};
+    Spinner spinner;
     EditText numberedt;
     String number;
 
@@ -19,6 +22,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         initview();
+        spinn();
+    }
+
+    private void spinn() {
+        spinner=findViewById(R.id.spinner);
+        ContryAdepter contryAdepter=new ContryAdepter(getApplicationContext(),contry);
+        spinner.setAdapter(contryAdepter);
     }
 
     private void initview() {
@@ -31,7 +41,11 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                     number=numberedt.getText().toString();
 
+
                 Intent i=new Intent(LoginActivity.this,ScreenActivity.class);
+
+
+
                 if(number.isEmpty())
                 {
                     Toast.makeText(LoginActivity.this, "please enter phone number", Toast.LENGTH_SHORT).show();

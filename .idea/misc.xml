@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/add.xml" value="0.23333333333333334" />
+        <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.23333333333333334" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.23657407407407408" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.23657407407407408" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_emoji_people_24.xml" value="0.23657407407407408" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.23657407407407408" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.23333333333333334" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.23657407407407408" />
+        <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_account.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_add_contact.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_calls.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_contact.xml" value="0.2222222222222222" />
@@ -19,9 +21,12 @@
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_nevigation.xml" value="0.128" />
+        <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_new_number.xml" value="0.20972222222222223" />
+        <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_none.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_people.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_screen.xml" value="0.25" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/activity_setting.xml" value="0.2222222222222222" />
+        <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/contry.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/hedler.xml" value="0.264" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/nev.xml" value="0.2222222222222222" />
         <entry key="..\:/Android/TelegramApplication/app/src/main/res/layout/toolbar.xml" value="0.25" />

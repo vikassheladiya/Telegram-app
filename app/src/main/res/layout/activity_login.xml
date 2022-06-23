@@ -63,14 +63,11 @@
         android:layout_marginTop="@dimen/_40sdp"
         android:background="#DAD8D8" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:text="INDIA"
-        android:textColor="@color/black"
-        android:textSize="@dimen/_15sdp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <View
         android:layout_width="match_parent"
@@ -101,7 +98,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:textColor="@color/black"
             android:inputType="phone"
-            android:hint="YOur Phone Number"/>
+            android:hint="Your Phone Number"/>
 
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatButton

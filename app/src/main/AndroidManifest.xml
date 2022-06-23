@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TelegramApplication">
         <activity
+            android:name=".NoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddContactActivity"
             android:exported="false" />
         <activity
